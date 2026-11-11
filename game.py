@@ -28,9 +28,8 @@ def display_game_results(game):
     print(f"player name: {game['player_name']}")
     print(f"number of rounds: {game['rounds']}")
     for i in range(game['rounds']):
-        print(f"---------- ROUND {i+1} ----------\n{game['player_name']}: {game['results'][i]['player_dice']}\n \
-        comuter: {game['results'][i]['copueter_dice']}\n\n{game['results'][i]['winner']} \
-        wins this round!")
+        print(f"---------- ROUND {i+1} ----------\n{game['player_name']}: {game['results'][i]['player_dice']}\n\
+comuter: {game['results'][i]['copueter_dice']}\n\n{game['results'][i]['winner']} wins this round!")
     print("====================")
     print("     GAME OVER")
     print("====================")

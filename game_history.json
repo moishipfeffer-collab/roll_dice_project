@@ -13,5 +13,59 @@
                 "winner": "computer"
             }
         ]
+    },
+    {
+        "player_name": "moishi",
+        "rounds": 3,
+        "player_score": 0,
+        "computer_score": 2,
+        "winner": "computer",
+        "results": [
+            {
+                "round": 1,
+                "player_dice": 2,
+                "copueter_dice": 3,
+                "winner": "computer"
+            },
+            {
+                "round": 2,
+                "player_dice": 1,
+                "copueter_dice": 4,
+                "winner": "computer"
+            },
+            {
+                "round": 3,
+                "player_dice": 4,
+                "copueter_dice": 4,
+                "winner": "drow"
+            }
+        ]
+    },
+    {
+        "player_name": "mois",
+        "rounds": 3,
+        "player_score": 1,
+        "computer_score": 2,
+        "winner": "computer",
+        "results": [
+            {
+                "round": 1,
+                "player_dice": 2,
+                "copueter_dice": 6,
+                "winner": "computer"
+            },
+            {
+                "round": 2,
+                "player_dice": 2,
+                "copueter_dice": 6,
+                "winner": "computer"
+            },
+            {
+                "round": 3,
+                "player_dice": 5,
+                "copueter_dice": 2,
+                "winner": "player"
+            }
+        ]
     }
 ]
