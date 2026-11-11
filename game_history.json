@@ -1,0 +1,17 @@
+[
+    {
+        "player_name": "dfd",
+        "rounds": 1,
+        "player_score": 0,
+        "computer_score": 1,
+        "winner": "computer",
+        "results": [
+            {
+                "round": 1,
+                "player_dice": 2,
+                "copueter_dice": 5,
+                "winner": "computer"
+            }
+        ]
+    }
+]
