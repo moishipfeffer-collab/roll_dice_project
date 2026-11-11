@@ -19,7 +19,7 @@ def start_game_flow(history:list):
     display_game_results(game)
     games = add_to_json(history,game)
     save_game(games)
-    print("\n Gmae saved successfully!")
+    print("\nGame saved successfully!")
 
 # option 2 view game history
 
@@ -29,7 +29,7 @@ def display_game_history(history:list):
     else:
         for game in history:
             print(f"\n----- GAME {history.index(game) + 1} -----\n\nplayer name: {game['player_name']}\n\
-round numbers: {game['rounds']}\nplayer_score: {game['player_score']}\n\
+rounds: {game['rounds']}\nplayer_score: {game['player_score']}\n\
 computer_score: {game['computer_score']}\nwinner: {game['winner']}\n\n")
 
 # option 3 display_statistics

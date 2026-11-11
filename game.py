@@ -13,11 +13,13 @@ def calc_winner(computer,player):
         winner = "drow"
     return winner
 
-def play_round():
+def play_round(player_name):
     computer = roll_dice()
-    input("pres enter to play your turn: ")
+    input(f"{player_name} pres enter to play your turn: ")
     player = roll_dice()
     winner = calc_winner(computer,player)
+    if winner == "player":
+        winner = player_name
     print(f"computer: {computer}, player: {player}, winner: {winner}")
     return {"round":None,"player_dice":player,"copueter_dice":computer,"winner":winner}
 
@@ -28,8 +30,11 @@ def display_game_results(game):
     print(f"player name: {game['player_name']}")
     print(f"number of rounds: {game['rounds']}")
     for i in range(game['rounds']):
-        print(f"---------- ROUND {i+1} ----------\n{game['player_name']}: {game['results'][i]['player_dice']}\n\
-comuter: {game['results'][i]['copueter_dice']}\n\n{game['results'][i]['winner']} wins this round!")
+        print(f"---------- ROUND {i+1} ----------\n{game['player_name']}: {game['results'][i]['player_dice']}\ncomuter: {game['results'][i]['copueter_dice']}")
+        if game['results'][i]['winner'] == 'drow':
+            print("the round ended with a drow")
+        else:
+            print(f"{game['results'][i]['winner']} wins the round")
     print("====================")
     print("     GAME OVER")
     print("====================")
@@ -48,9 +53,9 @@ def start_game():
     rounds = get_rounds_num(player_name)
     for i in range(rounds):
         round_num += 1
-        round_res = play_round()
+        round_res = play_round(player_name)
         round_res["round"] = round_num
-        if round_res["winner"] == "player":
+        if round_res["winner"] != "computer" and round_res["winner"] != "drow":
             player_score += 1
         elif round_res["winner"] == "computer":
             computer_score += 1

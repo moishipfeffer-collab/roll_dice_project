@@ -1,70 +1,106 @@
 [
     {
-        "player_name": "dfd",
-        "rounds": 1,
-        "player_score": 0,
-        "computer_score": 1,
-        "winner": "computer",
+        "player_name": "moishi",
+        "rounds": 4,
+        "player_score": 2,
+        "computer_score": 2,
+        "winner": "drow",
         "results": [
             {
                 "round": 1,
+                "player_dice": 6,
+                "copueter_dice": 1,
+                "winner": "moishi"
+            },
+            {
+                "round": 2,
+                "player_dice": 5,
+                "copueter_dice": 4,
+                "winner": "moishi"
+            },
+            {
+                "round": 3,
+                "player_dice": 1,
+                "copueter_dice": 2,
+                "winner": "computer"
+            },
+            {
+                "round": 4,
                 "player_dice": 2,
-                "copueter_dice": 5,
+                "copueter_dice": 3,
                 "winner": "computer"
             }
         ]
     },
     {
-        "player_name": "moishi",
-        "rounds": 3,
-        "player_score": 0,
-        "computer_score": 2,
+        "player_name": "rachel",
+        "rounds": 5,
+        "player_score": 1,
+        "computer_score": 4,
         "winner": "computer",
         "results": [
             {
                 "round": 1,
+                "player_dice": 5,
+                "copueter_dice": 6,
+                "winner": "computer"
+            },
+            {
+                "round": 2,
+                "player_dice": 4,
+                "copueter_dice": 5,
+                "winner": "computer"
+            },
+            {
+                "round": 3,
                 "player_dice": 2,
                 "copueter_dice": 3,
                 "winner": "computer"
             },
             {
-                "round": 2,
-                "player_dice": 1,
-                "copueter_dice": 4,
-                "winner": "computer"
+                "round": 4,
+                "player_dice": 4,
+                "copueter_dice": 3,
+                "winner": "rachel"
             },
             {
-                "round": 3,
-                "player_dice": 4,
-                "copueter_dice": 4,
-                "winner": "drow"
+                "round": 5,
+                "player_dice": 1,
+                "copueter_dice": 2,
+                "winner": "computer"
             }
         ]
     },
     {
-        "player_name": "mois",
-        "rounds": 3,
-        "player_score": 1,
-        "computer_score": 2,
-        "winner": "computer",
+        "player_name": "chaim",
+        "rounds": 4,
+        "player_score": 2,
+        "computer_score": 1,
+        "winner": "chaim",
         "results": [
             {
                 "round": 1,
-                "player_dice": 2,
-                "copueter_dice": 6,
-                "winner": "computer"
+                "player_dice": 5,
+                "copueter_dice": 5,
+                "winner": "drow"
             },
             {
                 "round": 2,
-                "player_dice": 2,
-                "copueter_dice": 6,
-                "winner": "computer"
+                "player_dice": 4,
+                "copueter_dice": 2,
+                "winner": "chaim"
             },
             {
                 "round": 3,
-                "player_dice": 5,
+                "player_dice": 4,
                 "copueter_dice": 2,
-                "winner": "player"
+                "winner": "chaim"
+            },
+            {
+                "round": 4,
+                "player_dice": 1,
+                "copueter_dice": 4,
+                "winner": "computer"
             }
         ]
     }
